@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTRATION FORM</title>
+        <script src="registration.js"></script>
+        <link href="registration.css" rel="Stylesheet" />
+
+    </head>
+    <body>
+        <div class="part1">
+            <div class="logo1">
+                <img src="logo.jpg" width="100px" height="100" />
+            </div>
+            <div class="university-name">
+                <h2>GITAM UNIVERSITY</h2>
+            </div>
+            <div class="logo2">
+                 <img src="logo.jpg" height="100px" weidth="100px" />
+            </div>
+        </div>
+        <nav>
+            <a href="home.html">home</a>
+            <a href="aboutus.html">Aboutus</a>
+            <a href="contactus.html">contact us</a>
+            <a href="login.html">login</a>
+            <a href="feedback.html">feedback</a>
+            <a href="registration.html">registration</a>
+    </nav>
+        <div align="center">
+    <form>
+        <fieldset>
+            <legend><b>REGISTRATION </b></legend>
+        User name:       <input type="text" id="txtusername" placeholder="enter user name" /></br>
+        Roll number   : <input type="text" id="txtrollnumber" placeholder="enter roll number"/></br>
+        Emailid       : <input type="email" id="txtemailid" placeholder="enter emailid"/><br/>
+        Phone number  : <input type="text" id="txtphonenumber" placeholder="enter phone number"/><br/>
+        Gender        : <input type="radio" id="male" name="gender" value="male">male            
+                        <input type="radio" id="female" name="gender" value="female">female <br> <br>           
+        Department    : <input type="radio" id="CSE"  name="department" value="CSE">CSE
+                        <input type="radio" id="MEC" name="department" value="MEC">MEC
+                        <input type="radio" id="EEE"  name="department" value="EEE">EEE<br>
+                        <br>
+
+        Address  : <textarea rows="3" cols="40"></textarea> <br/>
+                <button type="button" onclick="return validate()">submit</button>
+                <input type="button" value="cancel"/>
+                </fieldset>
+                </form>
+
+</div>
+    
+        
+         
+    </body>
+</html>
