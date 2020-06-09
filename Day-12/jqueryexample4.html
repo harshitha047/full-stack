@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jquery Introduction</title>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist (1)/bootstrap-4.5.0-dist/js/jquary.min.js" ></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $("#btnSlideUp").click(function(){
+                $("#div1").slideUp();
+            });
+            $("#btnSlideDown").click(function(){
+                $("#div1").slideDown();
+            });
+            $("#btnSlideToggle").click(function(){
+                $("#div2").slideToggle(2000);
+            });
+        });
+        </script>
+    </head>
+    <body>
+       <div id="div1">
+           <h1>slide</h1>
+       </div>
+       <div id="div2">
+           <h1>slide</h1>
+       </div>
+       <button id="btnSlideDown" type="button">slideDown</button>
+       <button id="btnSlideUp" type="button">slideUp</button>
+       <button id="btnSlideToggle" type="button">SlideToggle</button>
+    </body>
+</html>
