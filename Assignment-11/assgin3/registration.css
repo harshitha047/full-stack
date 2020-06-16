@@ -1,0 +1,52 @@
+
+.part1{
+    display:inline-block;
+    border: 2px solid black;
+    background-color: lightgray;
+    text-align: center;
+    width:100%;
+}
+.logo1{
+    border:2px solid red;
+    float: left;
+}
+.logo2{
+    border: 2px solid red;
+    float: right;
+}
+.university-name{
+    display:inline-block;
+    padding-top: 20px;
+}
+form{
+    width:500px;
+    height:410px;
+    background-color:rgb(240, 203, 232);
+    color: black;
+    padding:10px;
+    margin:50px auto;
+    text-align: center;
+}
+input[type=text],input[type=email]{
+    width:40%;
+    margin:8px;
+    padding:10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 0, 21, 0.164)a(255, 0, 21, 0.336)a(255, 0, 21, 0.336);
+    border-radius: 5px;
+ 
+}
+input[type=button]{
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+}
+nav{
+    border:2px solid black;
+    background-color: lightskyblue;
+    padding:20px;
+    width: 100%;
+}
+a{
+    padding:75px;
+}
